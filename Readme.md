@@ -1,6 +1,6 @@
 # Учебный проект «Барбершоп»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/17/user/386253).
+* Студент: Dmitrijs [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/17/user/386253).
 
 ---
 
