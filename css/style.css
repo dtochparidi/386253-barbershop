@@ -1,0 +1,21 @@
+body {
+  font-family: 'PT Sans Narrow', 'Calibri', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.index-content-left .title, .index-content-right .title, .second-navigation .title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.product-review-content {
+  font-size: 24px;
+  line-height: 30px;
+}
