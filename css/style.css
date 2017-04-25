@@ -69,6 +69,11 @@ body {
   margin-right: auto;
   outline: 1px solid red;
   width: 368px;
+  margin-top: 60px;
+}
+
+.features{
+   margin-top: 25px;
 }
 
 .features-item {
@@ -82,14 +87,28 @@ body {
   margin-right: 0px;
 }
 
+.index-content {
+  margin-top: 82px;
+}
+
 .index-content-left {
   width: 380px;
   float: left;
+  outline: 1px solid red;
 }
 
 .index-content-right {
   width: 300px;
   float: left;
+  outline: 1px solid red;
+}
+
+.index-content-bottom {
+  margin-top: 35px;
+}
+
+.main-footer {
+  margin-top: 65px;
 }
 
 .footer-contacts {
@@ -97,18 +116,20 @@ body {
   width: 380px;
   float: left;
   outline: 1px solid red;
+  margin-right: 20px;
 }
 
 .footer-social {
   min-height: 194px;
   width: 140px;
-  float: left:
+  float: left;
   outline: 1px solid red;
+  margin-right: 260px;
 }
 
 .footer-copyright {
   min-height: 194px;
   width: 140px;
-  float: left:
+  float: left;
   outline: 1px solid red;
 }
