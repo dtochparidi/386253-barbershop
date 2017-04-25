@@ -4,12 +4,13 @@
  <head>
   <meta charset="utf-8">
   <title>HTML Academy: Барбершоп</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
  <body>
    <header class="main-header">
-    <div class="container">
-     <img class="navlogo" src="img/logo.png" alt="logo" width="111" height="24">
+    <div class="container clearfix">
      <nav class="main-navigation">
+      <img class="navlogo" src="img/logo.png" alt="logo" width="111" height="24">
       <ul class="menu">
 
        <li class="list">
@@ -35,23 +36,23 @@
      </div>
     </div>
    </header>
-   <main class="main">
-     <section class="second-navigation">
-       <h1 class="title">Средства для ухода</h1>
-       <nav class="breadcrumbs">
-        <ul>
-         <li><a href="#">Главная</a></li>
-         <li><a href="#">Магазин</a></li>
-         <li><a href="#">Средства для ухода</a></li>
-        </ul>
-       </nav>
+   <main class="main container clearfix">
+    <section class="second-navigation">
+      <h1 class="title">Средства для ухода</h1>
+      <nav class="breadcrumbs">
+       <ul class="menu">
+        <li class="list"><a href="#">Главная</a></li>
+        <li class="list"><a href="#">Магазин</a></li>
+        <li class="list"><a href="#">Средства для ухода</a></li>
+       </ul>
+      </nav>
      </section>
      <div class="form">
 
        <form action="#" method="post">
         <fieldset>
          <legend>Производители:</legend>
-         <ul class="producer">
+         <ul class="producer zero-ull">
           <li><label><input type="checkbox" name="CALIFORNIA" checked> Baxter of california </label></li>
           <li><label><input type="checkbox" name="NATTY"> Mr natty </label></li>
           <li><label><input type="checkbox" name="SUAVECITO" checked> Suavecito </label></li>
@@ -62,7 +63,7 @@
         </fieldset>
         <fieldset>
          <legend>Группы товаров:</legend>
-         <ul class="products">
+         <ul class="products zero-ull">
           <li><label><input type="radio" name="group" value="shave"> Бритье и приналдежности </label></li>
           <li><label><input type="radio" name="group" value="tools" checked> Бритье и приналдежности </label></li>
           <li><label><input type="radio" name="group" value="Accessories"> Аксессуары </label></li>
@@ -87,7 +88,7 @@
         <b>2900 РУБ.</b>
         <a class="btn" href="#">купить</a>
       </div>
-     </article>
+      </article>
       <article class="items-article-2">
        <a href="#" title="Baxter of california">
         <img src="img/30.jpg" alt="Baxter of california" width="220" height="165">
@@ -153,21 +154,19 @@
         <a class="btn" href="#">купить</a>
        </div>
       </article>
-      </div>
-
-
+     </div>
      <nav class="pages">
-      <ul>
-       <li><a href="#" class="btn">1</a></li>
-       <li><a href="#" class="btn">2</a></li>
-       <li><a href="#" class="btn">3</a></li>
-       <li><a href="#" class="btn">4</a></li>
+      <ul class="menu">
+       <li class="list"><a href="#" class="btn">1</a></li>
+       <li class="list"><a href="#" class="btn">2</a></li>
+       <li class="list"><a href="#" class="btn">3</a></li>
+       <li class="list"><a href="#" class="btn">4</a></li>
       </ul>
      </nav>
 
    </main>
    <footer class="main-footer">
-     <div class="container">
+     <div class="container clearfix">
       <section class="footer-contacts">
         Барбершоп «Бородинский» <br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 <br>

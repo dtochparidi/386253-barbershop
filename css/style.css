@@ -135,3 +135,39 @@ body {
   float: left;
   outline: 1px solid red;
 }
+
+.navlogo {
+  display: block;
+  width: 111px;
+  float: left;
+  margin-right: 41px;
+}
+
+.zero-ull {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.form {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+  outline: 1px solid red;
+}
+
+.items {
+  width: 700px;
+  float: left;
+  outline: 1px solid red;
+}
+
+.pages {
+  outline: 1px solid red;
+  clear: both;
+  margin-left: 240px;
+}
+
+.second-navigation {
+  outline: 1px solid red;
+}
