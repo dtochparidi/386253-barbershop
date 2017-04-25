@@ -151,7 +151,7 @@ body {
   list-style-type: none;
 }
 
-.form {
+.item-form {
   width: 220px;
   float: left;
   margin-right: 20px;
@@ -196,7 +196,7 @@ body {
   margin-bottom: 49px;
 }
 
-.gallery {
+.item-gallery {
   outline: 1px solid red;
   width: 460px;
   float: left;
