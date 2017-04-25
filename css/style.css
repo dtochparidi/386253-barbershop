@@ -34,6 +34,7 @@ body {
 
 .menu {
   font-size: 0px;
+  padding-left: 0px;
 }
 
 .list {
@@ -55,6 +56,10 @@ body {
   width: 780px;
   min-height: 72px;
   float: left;
+}
+
+.second-navigation .title {
+  margin-top: 0px;
 }
 
 .user-block {
@@ -107,10 +112,7 @@ body {
 
 .index-content-bottom {
   margin-top: 35px;
-}
-
-.main-footer {
-  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 .footer-contacts {
@@ -170,4 +172,38 @@ body {
 
 .second-navigation {
   outline: 1px solid red;
+}
+
+.cat-title, .item-title {
+  margin-top: 56px;
+}
+
+.cat-content {
+  margin-top: 53px;
+}
+
+.cat-pages {
+  margin-top: 45px;
+  margin-bottom: 49px;
+}
+
+.display {
+  display: inline-block;
+}
+
+.item-content {
+  margin-top: 25px;
+  margin-bottom: 49px;
+}
+
+.gallery {
+  outline: 1px solid red;
+  width: 460px;
+  float: left;
+}
+
+.product-review {
+  outline: 1px solid red;
+  width: 390px;
+  float: left;
 }
