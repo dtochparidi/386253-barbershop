@@ -8,6 +8,12 @@ body {
   margin: 0px;
 }
 
+.clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
 .title {
   font-weight: bold;
 }
@@ -24,31 +30,85 @@ body {
 
 .main-header {
  outline: 1px solid pink;
- height: 72px;
 }
 
 .menu {
-  display: inline-block;
+  font-size: 0px;
 }
 
-.main-header .container {
+.list {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container {
   outline: 1px solid red;
-  height: 72px;
-  width: 960px;
+  width: 940px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .main-navigation {
-  outline: 1px solid green;
-  height: 72px;
-  width: 720px;
+  outline: 2px solid green;
+  width: 780px;
+  min-height: 72px;
   float: left;
 }
 
 .user-block {
-  outline: 1px solid black;
-  height: 72px;
+  outline: 2px solid black;
   width: 150px;
-  float: right; 
+  min-height: 72px;
+  float: right;
+}
+
+.logo-container-img {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+  width: 368px;
+}
+
+.features-item {
+  outline: 1px solid red;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0px;
+}
+
+.index-content-left {
+  width: 380px;
+  float: left;
+}
+
+.index-content-right {
+  width: 300px;
+  float: left;
+}
+
+.footer-contacts {
+  min-height: 194px;
+  width: 380px;
+  float: left;
+  outline: 1px solid red;
+}
+
+.footer-social {
+  min-height: 194px;
+  width: 140px;
+  float: left:
+  outline: 1px solid red;
+}
+
+.footer-copyright {
+  min-height: 194px;
+  width: 140px;
+  float: left:
+  outline: 1px solid red;
 }
