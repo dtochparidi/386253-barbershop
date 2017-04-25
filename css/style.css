@@ -95,12 +95,14 @@ body {
   width: 380px;
   float: left;
   outline: 1px solid red;
+  margin-left: 77px;
 }
 
 .index-content-right {
   width: 300px;
   float: left;
   outline: 1px solid red;
+  margin-left: 100px;
 }
 
 .index-content-bottom {
