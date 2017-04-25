@@ -38,3 +38,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.main-navigation {
+  outline: 1px solid green;
+  height: 72px;
+  width: 720px;
+  float: left;
+}
+
+.user-block {
+  outline: 1px solid black;
+  height: 72px;
+  width: 150px;
+  float: right; 
+}
