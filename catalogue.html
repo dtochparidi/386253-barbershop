@@ -12,19 +12,19 @@
      <nav class="main-navigation">
       <ul>
 
-       <li>
+       <li class="menu">
          <a href="#">Информация</a>
        </li>
-       <li>
+       <li class="menu">
          <a href="#">Новости</a>
        </li>
-       <li>
+       <li class="menu">
          <a href="#">Прайс-лист</a>
        </li>
-       <li>
+       <li class="menu">
          <a href="#">Магазин</a>
        </li>
-       <li>
+       <li class="menu">
          <a href="#">Контакты</a>
        </li>
       </ul>
@@ -51,19 +51,23 @@
        <form action="#" method="post">
         <fieldset>
          <legend>Производители:</legend>
-         <input type="checkbox" name="CALIFORNIA" checked> Baxter of california <br>
-         <input type="checkbox" name="NATTY"> Mr natty <br>
-         <input type="checkbox" name="SUAVECITO" checked> Suavecito <br>
-         <input type="checkbox" name="GOETZ"> Malin+Goetz <br>
-         <input type="checkbox" name="MURRAY'S"> Murray's <br>
-         <input type="checkbox" name="CREW" checked> American Crew <br>
-       </fieldset>
-       <fieldset>
+         <ul class="producer">
+          <li><label><input type="checkbox" name="CALIFORNIA" checked> Baxter of california </label></li>
+          <li><label><input type="checkbox" name="NATTY"> Mr natty </label></li>
+          <li><label><input type="checkbox" name="SUAVECITO" checked> Suavecito </label></li>
+          <li><label><input type="checkbox" name="GOETZ"> Malin+Goetz </label></li>
+          <li><label><input type="checkbox" name="MURRAY'S"> Murray's </label></li>
+          <li><label><input type="checkbox" name="CREW" checked> American Crew </label></li>
+         </ul>
+        </fieldset>
+        <fieldset>
          <legend>Группы товаров:</legend>
-         <input type="radio" name="group" value="shave"> Бритье и приналдежности <br>
-         <input type="radio" name="group" value="tools" checked> Бритье и приналдежности <br>
-         <input type="radio" name="group" value="Accessories"> Аксессуары <br>
-       </fieldset>
+         <ul class="products">
+          <li><label><input type="radio" name="group" value="shave"> Бритье и приналдежности </label></li>
+          <li><label><input type="radio" name="group" value="tools" checked> Бритье и приналдежности </label></li>
+          <li><label><input type="radio" name="group" value="Accessories"> Аксессуары </label></li>
+         </ul>
+        </fieldset>
        <button type="button" name="show" value="">
         <span>Показать</span>
        </button>
@@ -74,60 +78,78 @@
       <article class="items-article-1">
        <a href="#" title="Baxter of california">
         <img src="img/38.jpg" alt="Baxter of california" width="220" height="165">
-        <p>Набор для путешествий <br>"Baxter of california"</p>
+          <h2 class="title">
+            <span class="product-category"> Набор для путешествий </span>
+            <span class="product-name">"Baxter of california"</span>
+          </h2>
        </a>
        <div class="price">
-        <strong>2900 РУБ.</strong>
+        <b>2900 РУБ.</b>
         <a class="btn" href="#">купить</a>
       </div>
      </article>
       <article class="items-article-2">
        <a href="#" title="Baxter of california">
         <img src="img/30.jpg" alt="Baxter of california" width="220" height="165">
-        <p>Увлажняющий кондиционер <br> "Baxter of california"</p>
+        <h2 class="title">
+          <span class="product-category"> Увлажняющий кондиционер </span>
+          <span class="product-name">"Baxter of california"</span>
+        </h2>
        </a>
        <div class="price">
-        <strong>750 РУБ.</strong>
+        <b>750 РУБ.</b>
         <a class="btn" href="#">купить</a>
        </div>
       </article>
       <article class="items-article-3">
        <a href="#" title="Suavecito">
         <img src="img/39.jpg" alt="Suavecito" width="220" height="165">
-        <p>Гель для волос <br>"Suavecito"</p>
+        <h2 class="title">
+          <span class="product-category"> Гель для волос </span>
+          <span class="product-name">"Suavecito"</span>
+        </h2>
        </a>
        <div class="price">
-        <strong>290 РУБ.</strong>
+        <b>290 РУБ.</b>
         <a class="btn" href="#">купить</a>
        </div>
       </article>
       <article class="items-article-4">
        <a href="#" title="American crew">
         <img src="img/32.jpg" alt="American crew" width="220" height="165">
-        <p>Глинка для укладки волос <br> "American crew"</p>
+        <h2 class="title">
+          <span class="product-category"> Глинка для укладки волос </span>
+          <span class="product-name">"American crew"</span>
+        </h2>
        </a>
        <div class="price">
-        <strong>500 РУБ.</strong>
+        <b>500 РУБ.</b>
         <a class="btn" href="#">купить</a>
        </div>
       </article>
       <article class="items-article-5">
        <a href="#" title="American crew">
         <img src="img/33.jpg" alt="American crew" width="220" height="165">
-        <p>Гель для волос <br>"American crew"</p>
+        <h2 class="title">
+          <span class="product-category"> Гель для волос </span>
+          <span class="product-name">"American crew"</span>
+        </h2>
        </a>
        <div class="price">
-        <strong>300 РУБ.</strong>
+        <b>300 РУБ.</b>
         <a class="btn" href="#">купить</a>
        </div>
       </article>
       <article class="items-article-6">
        <a href="#" title="Baxter of california">
         <img src="img/42.jpg" alt="Baxter of california" width="220" height="165">
-        <p>Набор для бритья <br>"Baxter of california"</p>
+        <h2 class="title">
+          <span class="product-category"> Набор для бритья </span>
+          <span class="product-name">"Baxter of california"</span>
+        </h2>
        </a>
        <div class="price">
-        <strong>3900 РУБ.</strong>
+        <b>3900 РУБ.</b>
         <a class="btn" href="#">купить</a>
        </div>
       </article>
