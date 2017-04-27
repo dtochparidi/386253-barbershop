@@ -162,6 +162,8 @@ body {
   width: 700px;
   float: left;
   outline: 1px solid red;
+  margin: 0px;
+  padding: 0px;
 }
 
 .pages {
@@ -189,6 +191,17 @@ body {
 
 .display {
   display: inline-block;
+  width: 220px;
+  margin-right: 18px;
+  }
+
+.display:nth-child(3n) {
+  outline: 1px solid red;
+  margin-right: 0;
+}
+
+.product-name {
+  display: block;
 }
 
 .item-content {
@@ -208,4 +221,8 @@ body {
   width: 390px;
   float: left;
   margin-left: 90px;
+}
+
+.gallery-content {
+  margin: 0px;
 }
