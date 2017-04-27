@@ -162,8 +162,7 @@ body {
   width: 700px;
   float: left;
   outline: 1px solid red;
-  margin: 0px;
-  padding: 0px;
+  font-size: 0px;
 }
 
 .pages {
@@ -189,15 +188,19 @@ body {
   margin-bottom: 49px;
 }
 
-.display {
+.items-article {
   display: inline-block;
   width: 220px;
   margin-right: 20px;
+  font-size: 14px;
   }
 
-.display:nth-child(3n) {
-  outline: 1px solid red;
+.items-article:nth-child(3n) {
   margin-right: 0;
+}
+
+.items-article:nth-child(n+4) {
+  margin-top: 20px;
 }
 
 .product-name {
